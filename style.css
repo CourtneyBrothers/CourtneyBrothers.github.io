@@ -1,0 +1,14 @@
+
+nav {
+    display: flex;
+}
+
+nav a:hover {
+    color: seagreen;
+    background-color: mediumslateblue; /*background color of the element that contains the linkk should change*/
+    
+
+}
+nav:hover {
+    background-color: pink;
+}
