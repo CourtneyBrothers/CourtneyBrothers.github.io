@@ -8,7 +8,7 @@ eachBlog = [
     },{
         title:"Title 2",
         date:"November 2017",
-        content:"more content will be here",
+        content:"“A man's work is nothing but this slow trek to rediscover, through the detours of art, those two or three great and simple images in whose presence his heart first opened.― Albert Camus",
         
 
     },{
