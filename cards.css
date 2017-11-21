@@ -1,16 +1,14 @@
 
-.blogcards{
-    display: flex;
-    flex-wrap: wrap;
-    background: rgb(247, 243, 244);
-    padding: 25px 50px 75px 100px;
 
-}
 
 .card {
     background: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1rem;
+    padding: 10px;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 50vh;
     
 }
 
@@ -19,4 +17,17 @@
     flex-wrap: wrap;
     background: rgb(247, 243, 244);
     padding: 25px 50px 75px 100px;
+    min-height: 100vh;
+}
+
+/* media queries */
+@media all and (min-width: 40em){
+    .card{
+        width: 50%;
+    }
+}
+@media all and (min width: 60em){
+    .card{
+        width: 33.3%
+    }
 }
