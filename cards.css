@@ -2,6 +2,7 @@
 
 
 .card {
+    
     background: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1rem;
@@ -9,6 +10,10 @@
     padding: 0.5em;
     width: 100%;
     max-width: 50vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
     
 }
 
@@ -30,4 +35,12 @@
     .card{
         width: 33.3%
     }
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(247, 243, 244);
+    padding: 25px 50px 75px 100px;
+    min-height: 100vh;
 }

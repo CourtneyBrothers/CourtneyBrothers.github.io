@@ -1,3 +1,7 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif
+    color: rgb(17, 19, 26);
+}
 
 nav {
     display: flex;
