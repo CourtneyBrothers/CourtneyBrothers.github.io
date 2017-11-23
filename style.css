@@ -1,20 +1,95 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(17, 19, 26);
+   
+}
+body{
+    color: black;
+    
 }
 
-nav {
+/* NAVIGATION BAR STYLING */
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+
+/*nav {
     display: flex;
-}
+}  for some reason this is preventing justify content from space between woorking*/
 
 nav a:hover {
     color: seagreen;
-    background-color: mediumslateblue; /*background color of the element that contains the linkk should change*/
+    
+
+    /*background-color: mediumslateblue; /*background color of the element that contains the linkk should change*/
+    /*margin: 2em;*/
+
     
 
 }
 nav:hover {
-    background-color: pink;
+    background-color: rgba(255, 192, 204, 0.322);
+    border: 9em rgba(255, 192, 204, 0.233) solid;
    
     
 }
+div#iframeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 9;
+    justify-content: space-between;
+    
+    margin: 2em;
+    
+}
+
+
+
+.card {
+    
+    background: rgba(255, 255, 255, 0.26); /* white transparency */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 1rem;
+    padding: 10px;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 50vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: wrap;
+    
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(247, 243, 244);
+    padding: 25px 50px 75px 100px;
+    min-height: 100vh;
+}
+
+/* media queries */
+@media all and (min-width: 40em){
+    .card{
+        width: 50%;
+    }
+}
+@media all and (min width: 60em){
+    .card{
+        width: 33.3%
+    }
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(247, 243, 244);
+    padding: 25px 50px 75px 100px;
+    min-height: 100vh;
+}
+
+
+
