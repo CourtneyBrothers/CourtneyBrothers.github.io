@@ -11,23 +11,6 @@ resumeArticles = [
         content:"“A man's work is nothing but this slow trek to rediscover, through the detours of art, those two or three great and simple images in whose presence his heart first opened.― Albert Camus",
         
 
-    },{
-        title:"Title 3",
-        dates:"December 2017",
-        content:"more copy needed",
-        
-
-    },{
-        title:"Title 4",
-        dates:"December 2017",
-        content:"content about december",
-        
-
-    },{
-        title:"Title 5",
-        dates:"December 15 2017",
-        content:"IM SO EXCITED FOR CHRISTMAS",
-
     }
 ]
 function createResumeArticles() {

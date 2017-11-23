@@ -41,7 +41,8 @@
 .resume {
     display: flex;
     flex-wrap: wrap;
-    background: rgb(247, 243, 244);
+    background: rgba(247, 243, 244, 0.24);
     padding: 25px 50px 75px 100px;
     min-height: 100vh;
 }
+

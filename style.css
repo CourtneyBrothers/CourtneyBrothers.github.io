@@ -1,10 +1,11 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: serif;
     color: rgb(17, 19, 26);
    
 }
 body{
     color: black;
+    background-image:url("IMG_0527.jpg");
     
 }
 
@@ -30,7 +31,7 @@ nav a:hover {
 }
 nav:hover {
     background-color: rgba(255, 192, 204, 0.322);
-    border: 9em rgba(255, 192, 204, 0.233) solid;
+
    
     
 }
@@ -39,11 +40,14 @@ div#iframeContainer {
     flex-wrap: wrap;
     flex-shrink: 9;
     justify-content: space-between;
-    
+    border: 1em rgba(255, 255, 255, 0.24) solid;
     margin: 2em;
     
 }
-
+iframe {
+    border-color: white;
+    box-shadow: 0 4em 8em 0 rgba(0,0,0,0.2);
+}
 
 
 .card {
@@ -66,7 +70,7 @@ div#iframeContainer {
 .container {
     display: flex;
     flex-wrap: wrap;
-    background: rgb(247, 243, 244);
+    background: rgba(247, 243, 244, 0.151);
     padding: 25px 50px 75px 100px;
     min-height: 100vh;
 }
@@ -86,10 +90,23 @@ div#iframeContainer {
 .resume {
     display: flex;
     flex-wrap: wrap;
-    background: rgb(247, 243, 244);
+    background: rgb(141, 116, 123);
     padding: 25px 50px 75px 100px;
     min-height: 100vh;
+    justify-content: space-between;
 }
 
 
+//*FLEX WHOLE PAGE*/
 
+.bodyFlex {
+    display: flex;
+    /*background-image: url("IMG_0527.jpg");*/
+
+}
+h1,h3,p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1em;
+    text-align: center;
+    color: whitesmoke;
+}
