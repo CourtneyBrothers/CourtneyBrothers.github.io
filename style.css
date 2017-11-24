@@ -7,6 +7,7 @@ body{
     color: black;
     background-image:url("IMG_0527.jpg");
     
+    
 }
 
 /* NAVIGATION BAR STYLING */
@@ -55,14 +56,16 @@ iframe {
     background: rgba(255, 255, 255, 0.26); /* white transparency */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1rem;
-    padding: 10px;
+    padding: 10em;
     padding: 0.5em;
     width: 100%;
-    max-width: 50vh;
-    white-space: nowrap;
+    /*max-width: 50vw;*/
+    min-width: 33vw;
+    max-height: 50vh;
+    /*white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
-    word-wrap: wrap;
+    text-overflow: ellipsis;*/
+    /*word-wrap: wrap;*/
     
     
 }
@@ -104,7 +107,7 @@ iframe {
     /*background-image: url("IMG_0527.jpg");*/
 
 }
-h1,h3,p{
+h1,h3,p,li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 1em;
     text-align: center;
