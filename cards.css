@@ -3,7 +3,7 @@
 
 .card {
     /*display: flex; This DOES NOT WORK IT SEEMS to solve problem of how to resize text in cards*/
-    background: white;
+    background: rgba(255, 255, 255, 0.178);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1rem;
     padding: 10px;
