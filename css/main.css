@@ -24,11 +24,21 @@ body{
 /*nav {
     display: flex;
 }  for some reason this is preventing justify content from space between woorking*/
+
 nav ul {
     list-style: none;
+    
+    
 }
-nav a:hover {
-    color: seagreen;
+nav ul a {
+    text-decoration: none;
+}
+nav ul li:hover {
+    color: rgb(255, 255, 255);
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    font-size: 1rem;
+
     
 
     /*background-color: mediumslateblue; /*background color of the element that contains the linkk should change*/
@@ -110,10 +120,14 @@ h1,h3,p,li {
     top: -2px;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
   }
-  .card span {
-    font-size: 12px;
-    font-weight: bold;
-    color: #999;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    margin: 2em 0 0 0;
+ .grid {
+        width: 90%;
+        max-width: 1240px;
+        margin: 0 auto;
+         
+        display: grid;
+         
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
