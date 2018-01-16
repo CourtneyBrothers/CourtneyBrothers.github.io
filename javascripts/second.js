@@ -1,4 +1,6 @@
-resumeArticles = [
+"use strict";
+
+let resumeArticles = [
     {
         title: "Freelance graphic artist",
         dates:"2016-present",
@@ -12,14 +14,15 @@ resumeArticles = [
         
 
     }
-]
+];
+
 function createResumeArticles() {
     let empty = "";
     for (var i=0; i < resumeArticles.length; i++) {
     let resumeArticle = `<div class="card"><h2>Title: ${resumeArticles[i].title}</h2> <h3>Date: ${resumeArticles[i].date}</h3> <p>${resumeArticles[i].content}</p></div>`;
     empty += resumeArticle;
-    };
+    }
     document.querySelector(".resume").innerHTML = empty;
-};
+}
 
 createResumeArticles();
