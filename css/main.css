@@ -120,14 +120,14 @@ h1,h3,p,li {
     top: -2px;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
   }
- .grid {
+ .blog {
         width: 90%;
         max-width: 1240px;
         margin: 0 auto;
          
         display: grid;
          
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-gap: 20px;
     }
