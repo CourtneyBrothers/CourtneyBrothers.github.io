@@ -1,0 +1,27 @@
+html
+  head
+    title about
+    include stylesheets.pug
+  body
+    include ./partials/nav.pug
+    div(class="container" class="landing")
+          div(class="postition-relative overflow-hidden p-3  p-md-5 m-md3 text-center mt-5")
+                  div(class="col-md-5 p-lg-5 mx-auto my-5")
+                    h1(class="display-4 font-weight-bold") projects</br> 
+
+    block content 
+         
+      div(class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center")
+          div(class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center")
+            h1(class="display-4") current and ongoing
+                .container
+                  div(class="row p-5" class="row justify-content-center")
+                      div(class="card" class="reuse")
+                        img(src="/images/screenshot-last-straw.png" class="recycleThis" class="card-img-top")
+                        div(class="card-body")
+                          p(class="lead") Data visualization project to empower users to track their personal waste stream; and make choices that make a real impact on the ocean and our cultue <br> 
+                          a(href="https://laststraw.herokuapp.com/" target="_blank" class="size-sm") view the project <br>
+                          a(href="https://github.com/CourtneyBrothers/plastictracker" target="_blank")
+                            img(src="/images/Github-Mark-64px.png")
+
+          

@@ -1,0 +1,24 @@
+h1, h2, h3, p, a {
+  font-family: "Poppins", sans-serif; }
+
+.landing {
+  background: url("/images/daniel-mayovskiy-353351-unsplash.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.cover-heading {
+  color: white; }
+
+.white {
+  background: white; }
+
+.black {
+  color: black; }
+
+.size-sm {
+  font-size: 20px; }
+
+.no-border {
+  border-color: rgba(0, 0, 0, 0.01); }
