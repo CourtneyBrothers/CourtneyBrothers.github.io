@@ -22,3 +22,6 @@ h1, h2, h3, p, a {
 
 .no-border {
   border-color: rgba(0, 0, 0, 0.01); }
+
+  .white-text {
+    color: white; }
